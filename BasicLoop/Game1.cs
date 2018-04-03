@@ -94,7 +94,7 @@ namespace BasicLoop
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Beige);
+            GraphicsDevice.Clear(Color.Green);
 
             spriteBatch.Begin();
             spriteBatch.Draw(texture, position);
