@@ -40,7 +40,7 @@ namespace BasicLoop
 
             for (int i = 0; i < square.Length; i++)
             {
-                square[i] = Color.Purple;
+                square[i] = Color.DarkRed;
             }
             texture.SetData(square);
 
@@ -94,7 +94,7 @@ namespace BasicLoop
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Green);
+            GraphicsDevice.Clear(Color.Red);
 
             spriteBatch.Begin();
             spriteBatch.Draw(texture, position);
